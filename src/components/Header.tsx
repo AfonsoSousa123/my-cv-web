@@ -16,7 +16,7 @@ const Header = () => {
           </button>
 
           <a href="/" className="navbar-brand mx-auto mx-lg-0">
-            First
+            CV Portfolio
           </a>
 
           <div className="d-flex align-items-center d-lg-none">
