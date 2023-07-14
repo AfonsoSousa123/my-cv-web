@@ -33,7 +33,7 @@ const Contact = () => {
 
                   <li className="footer-menu-item">
                     <a href="#" className="footer-menu-link">
-                      Branding
+                      APIs
                     </a>
                   </li>
 
@@ -45,7 +45,7 @@ const Contact = () => {
 
                   <li className="footer-menu-item">
                     <a href="#" className="footer-menu-link">
-                      SEO
+                      Web Apps
                     </a>
                   </li>
                 </ul>
@@ -55,12 +55,12 @@ const Contact = () => {
                 </strong>
 
                 <ul className="social-icon">
-                  <li className="social-icon-item">
-                    <a
-                      href="https://twitter.com/minthu"
-                      className="social-icon-link bi-twitter"
-                    ></a>
-                  </li>
+                  {/*<li className="social-icon-item">*/}
+                  {/*  <a*/}
+                  {/*    href="https://twitter.com/minthu"*/}
+                  {/*    className="social-icon-link bi-twitter"*/}
+                  {/*  ></a>*/}
+                  {/*</li>*/}
 
                   <li className="social-icon-item">
                     <a href="#" className="social-icon-link bi-instagram"></a>
@@ -71,10 +71,7 @@ const Contact = () => {
                   </li>
 
                   <li className="social-icon-item">
-                    <a
-                      href="https://www.youtube.com/templatemo"
-                      className="social-icon-link bi-youtube"
-                    ></a>
+                    <a href="#" className="social-icon-link bi-youtube"></a>
                   </li>
                 </ul>
 
@@ -93,8 +90,8 @@ const Contact = () => {
                 </strong>
 
                 <p className="mb-2">
-                  Joshua is a professional web developer. Feel free to get in
-                  touch with me.
+                  Afonso is a junior web developer. Feel free to get in touch
+                  with me.
                 </p>
 
                 <strong className="site-footer-title d-block mt-4 mb-3">
@@ -102,7 +99,9 @@ const Contact = () => {
                 </strong>
 
                 <p>
-                  <a href="mailto:hello@josh.design">hello@josh.design</a>
+                  <a href="mailto:afonsosousa10@gmail.com">
+                    afonsosousa10@gmail.com
+                  </a>
                 </p>
 
                 <strong className="site-footer-title d-block mt-4 mb-3">
@@ -110,7 +109,7 @@ const Contact = () => {
                 </strong>
 
                 <p className="mb-0">
-                  <a href="tel: 120-240-9600">120-240-9600</a>
+                  <a href="tel: +351 938 932 012">+351 938 932 012</a>
                 </p>
               </div>
             </div>
@@ -193,7 +192,7 @@ const Contact = () => {
                       {/*</label>*/}
                       <label className="form-check-label">
                         <i className="bi-lightbulb form-check-icon"></i>
-                        <span className="form-check-label-text">Branding</span>
+                        <span className="form-check-label-text">APIs</span>
                       </label>
                     </div>
                   </div>
@@ -235,7 +234,7 @@ const Contact = () => {
                       {/*</label>*/}
                       <label className="form-check-label">
                         <i className="bi-google form-check-icon"></i>
-                        <span className="form-check-label-text">SEO</span>
+                        <span className="form-check-label-text">Web Apps</span>
                       </label>
                     </div>
                   </div>

@@ -1,8 +1,3 @@
-// Css Files
-import "./assets/css/magnific-popup.css";
-import "./assets/css/bootstrap.min.css";
-import "./assets/css/templatemo-first-portfolio-style.css";
-import "./assets/css/bootstrap-icons.css";
 import { useState } from "react";
 
 // Sections Files
@@ -18,15 +13,6 @@ import Hero from "./sections/Hero.tsx";
 import Header from "./components/Header.tsx";
 import Loader from "./components/Loader.tsx";
 import Footer from "./components/Footer.tsx";
-
-// JS files
-import "./assets/js/bootstrap.min.js";
-import "./assets/js/jquery.min.js";
-import "./assets/js/custom.js";
-import "./assets/js/click-scroll.js";
-import "./assets/js/jquery.magnific-popup.min.js";
-import "./assets/js/jquery.sticky.js";
-import "./assets/js/magnific-popup-options.js";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);

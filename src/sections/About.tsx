@@ -18,21 +18,17 @@ const About = () => {
                   <h2 className="text-white me-4 mb-0">My Story</h2>
 
                   <img
-                    src="/images/happy-bearded-young-man.jpg"
+                    src="/images/AfonsoPic.jpg"
                     className="avatar-image img-fluid"
                     alt=""
                   />
                 </div>
 
-                <h3 className="pt-2 mb-3">a little bit about Joshua</h3>
+                <h3 className="pt-2 mb-3">a little bit about Afonso</h3>
 
                 <p>
-                  This one-page HTML portfolio is provided by{" "}
-                  <a href="https://templatemo.com" target="_blank">
-                    TemplateMo
-                  </a>
-                  . This layout is based on Bootstrap v5.1.3 CSS and JS
-                  libraries. Image credits go to{" "}
+                  Full-Stack Developer . This layout is based on Bootstrap
+                  v5.1.3 CSS and JS libraries. Image credits go to{" "}
                   <a href="https://unsplash.com" target="_blank">
                     Unsplash
                   </a>{" "}
