@@ -10,7 +10,7 @@ const Clients = () => {
 
             <div className="col-lg-2 col-4 ms-auto clients-item-height">
               <img
-                src="public/images/clients/cachet.svg"
+                src="/images/clients/cachet.svg"
                 className="clients-image img-fluid"
                 alt=""
               />
@@ -18,7 +18,7 @@ const Clients = () => {
 
             <div className="col-lg-2 col-4 clients-item-height">
               <img
-                src="public/images/clients/guitar-center.svg"
+                src="/images/clients/guitar-center.svg"
                 className="clients-image img-fluid"
                 alt=""
               />
@@ -26,7 +26,7 @@ const Clients = () => {
 
             <div className="col-lg-2 col-4 clients-item-height">
               <img
-                src="public/images/clients/tokico.svg"
+                src="/images/clients/tokico.svg"
                 className="clients-image img-fluid"
                 alt=""
               />
@@ -34,7 +34,7 @@ const Clients = () => {
 
             <div className="col-lg-2 col-4 clients-item-height">
               <img
-                src="public/images/clients/shopify.svg"
+                src="/images/clients/shopify.svg"
                 className="clients-image img-fluid"
                 alt=""
               />
@@ -42,7 +42,7 @@ const Clients = () => {
 
             <div className="col-lg-2 col-4 me-auto clients-item-height">
               <img
-                src="public/images/clients/profil-rejser.svg"
+                src="/images/clients/profil-rejser.svg"
                 className="clients-image img-fluid"
                 alt=""
               />

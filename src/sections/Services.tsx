@@ -7,7 +7,7 @@ const Services = () => {
             <div className="col-lg-10 col-12 mx-auto">
               <div className="section-title-wrap d-flex justify-content-center align-items-center mb-5">
                 <img
-                  src="public/images/handshake-man-woman-after-signing-business-contract-closeup.jpg"
+                  src="/images/handshake-man-woman-after-signing-business-contract-closeup.jpg"
                   className="avatar-image img-fluid"
                   alt=""
                 />

@@ -7,7 +7,7 @@ const Projects = () => {
             <div className="col-lg-8 col-md-8 col-12 ms-auto">
               <div className="section-title-wrap d-flex justify-content-center align-items-center mb-4">
                 <img
-                  src="public/images/white-desk-work-study-aesthetics.jpg"
+                  src="/images/white-desk-work-study-aesthetics.jpg"
                   className="avatar-image img-fluid"
                   alt=""
                 />
@@ -27,11 +27,11 @@ const Projects = () => {
                 </div>
 
                 <a
-                  href="public/images/projects/nikhil-KO4io-eCAXA-unsplash.jpg"
+                  href="/images/projects/nikhil-KO4io-eCAXA-unsplash.jpg"
                   className="popup-image"
                 >
                   <img
-                    src="public/images/projects/nikhil-KO4io-eCAXA-unsplash.jpg"
+                    src="/images/projects/nikhil-KO4io-eCAXA-unsplash.jpg"
                     className="projects-image img-fluid"
                     alt=""
                   />
@@ -48,11 +48,11 @@ const Projects = () => {
                 </div>
 
                 <a
-                  href="public/images/projects/the-5th-IQYR7N67dhM-unsplash.jpg"
+                  href="/images/projects/the-5th-IQYR7N67dhM-unsplash.jpg"
                   className="popup-image"
                 >
                   <img
-                    src="public/images/projects/the-5th-IQYR7N67dhM-unsplash.jpg"
+                    src="/images/projects/the-5th-IQYR7N67dhM-unsplash.jpg"
                     className="projects-image img-fluid"
                     alt=""
                   />
@@ -69,11 +69,11 @@ const Projects = () => {
                 </div>
 
                 <a
-                  href="public/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"
+                  href="/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"
                   className="popup-image"
                 >
                   <img
-                    src="public/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"
+                    src="/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"
                     className="projects-image img-fluid"
                     alt=""
                   />

@@ -6,7 +6,7 @@ const About = () => {
           <div className="row">
             <div className="col-lg-6 col-12">
               <img
-                src="../../public/images/couple-working-from-home-together-sofa.jpg"
+                src="/images/couple-working-from-home-together-sofa.jpg"
                 className="about-image img-fluid"
                 alt=""
               />
@@ -18,7 +18,7 @@ const About = () => {
                   <h2 className="text-white me-4 mb-0">My Story</h2>
 
                   <img
-                    src="../../public/images/happy-bearded-young-man.jpg"
+                    src="/images/happy-bearded-young-man.jpg"
                     className="avatar-image img-fluid"
                     alt=""
                   />

@@ -11,7 +11,7 @@ const Hero = () => {
               <div className="hero-text">
                 <div className="hero-title-wrap d-flex align-items-center mb-4">
                   <img
-                    src="public/images/happy-bearded-young-man.jpg"
+                    src="/images/happy-bearded-young-man.jpg"
                     className="avatar-image avatar-image-large img-fluid"
                     alt=""
                   />
@@ -31,7 +31,7 @@ const Hero = () => {
             <div className="col-lg-5 col-12 position-relative">
               <div className="hero-image-wrap"></div>
               <img
-                src="public/images/portrait-happy-excited-man-holding-laptop-computer.png"
+                src="/images/portrait-happy-excited-man-holding-laptop-computer.png"
                 className="hero-image img-fluid"
                 alt=""
               />

@@ -7,7 +7,7 @@ const Contact = () => {
             <div className="col-lg-6 col-md-8 col-12">
               <div className="section-title-wrap d-flex justify-content-center align-items-center mb-5">
                 <img
-                  src="public/images/aerial-view-man-using-computer-laptop-wooden-table.jpg"
+                  src="/images/aerial-view-man-using-computer-laptop-wooden-table.jpg"
                   className="avatar-image img-fluid"
                   alt=""
                 />

@@ -7,6 +7,9 @@ https://templatemo.com/tm-578-first-portfolio
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 :root {
   --white-color: rgb(255, 255, 255);
   --primary-color:                #535da1;
@@ -17,7 +20,7 @@ https://templatemo.com/tm-578-first-portfolio
   --border-color:                 #e9eaeb;
   --featured-border-color:        #727aab;
 
-  --body-font-family:             'DM Sans', sans-serif;
+  --body-font-family:             'Rubik', 'DM Sans', sans-serif;
 
   --h1-font-size:                 62px;
   --h2-font-size:                 48px;
