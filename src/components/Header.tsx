@@ -22,7 +22,7 @@ const Header = () => {
           <div className="d-flex align-items-center d-lg-none">
             <i className="navbar-icon bi-telephone-plus me-3"></i>
             <a className="custom-btn btn" href="#section_5">
-              120-240-9600
+              +351 938 932 012
             </a>
           </div>
 
@@ -62,7 +62,7 @@ const Header = () => {
             <div className="d-lg-flex align-items-center d-none ms-auto">
               <i className="navbar-icon bi-telephone-plus me-3"></i>
               <a className="custom-btn btn" href="#section_5">
-                120-240-9600
+                +351 938 932 012
               </a>
             </div>
           </div>

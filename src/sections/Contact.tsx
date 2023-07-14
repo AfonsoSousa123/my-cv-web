@@ -45,7 +45,7 @@ const Contact = () => {
 
                   <li className="footer-menu-item">
                     <a href="#" className="footer-menu-link">
-                      Web Apps
+                      SEO
                     </a>
                   </li>
                 </ul>
@@ -91,7 +91,7 @@ const Contact = () => {
 
                 <p className="mb-2">
                   Afonso is a junior web developer. Feel free to get in touch
-                  with me.
+                  with him.
                 </p>
 
                 <strong className="site-footer-title d-block mt-4 mb-3">
@@ -233,7 +233,7 @@ const Contact = () => {
                       {/*    <span className="form-check-label-text">SEO</span>*/}
                       {/*</label>*/}
                       <label className="form-check-label">
-                        <i className="bi-google form-check-icon"></i>
+                        <i className="bi-search form-check-icon"></i>
                         <span className="form-check-label-text">Web Apps</span>
                       </label>
                     </div>

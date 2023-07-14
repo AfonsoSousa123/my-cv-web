@@ -24,14 +24,14 @@ const Featured = () => {
                   <p>
                     <span className="profile-small-title">Phone</span>
                     <span>
-                      <a href="tel: 305-240-9671">+351 938 932 012</a>
+                      <a href="tel:+351938932012">+351 938 932 012</a>
                     </span>
                   </p>
 
                   <p>
                     <span className="profile-small-title">Email</span>
                     <span>
-                      <a href="mailto:hello@josh.design">
+                      <a href="mailto:afonsosousa10@gmail.com">
                         afonsosousa10@gmail.com
                       </a>
                     </span>

@@ -48,7 +48,7 @@ const Services = () => {
                 <div className="col-lg-6 col-12">
                   <div className="services-thumb services-thumb-up">
                     <div className="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                      <h3 className="mb-0">Branding</h3>
+                      <h3 className="mb-0">APIs</h3>
 
                       <div className="services-price-wrap ms-auto">
                         <p className="services-price-text mb-0">$1,200</p>
@@ -57,8 +57,8 @@ const Services = () => {
                     </div>
 
                     <p>
-                      You can explore more CSS templates on TemplateMo website
-                      by browsing through different tags.
+                      I'm available to develop REST APIs and other types of
+                      APIs, with its respective documentation
                     </p>
 
                     <a
@@ -116,8 +116,7 @@ const Services = () => {
 
                     <p>
                       To list your website first on any search engine, we will
-                      work together. First Portfolio is one-page CSS Template
-                      for free download.
+                      work together.
                     </p>
 
                     <a
@@ -128,7 +127,7 @@ const Services = () => {
                     </a>
 
                     <div className="services-icon-wrap d-flex justify-content-center align-items-center">
-                      <i className="services-icon bi-google"></i>
+                      <i className="services-icon bi-search"></i>
                     </div>
                   </div>
                 </div>
