@@ -48,31 +48,31 @@ const Featured = () => {
             <div className="col-lg-6 col-12 mt-5 mt-lg-0">
               <div className="about-thumb">
                 <div className="row">
-                  <div className="col-lg-6 col-6 featured-border-bottom py-2">
+                  <div className="col-lg-8 col-6 featured-border-bottom py-2">
                     <strong className="featured-numbers">3+</strong>
 
                     <p className="featured-text">Years of Experiences</p>
                   </div>
 
-                  <div className="col-lg-6 col-6 featured-border-start featured-border-bottom ps-5 py-2">
-                    <strong className="featured-numbers">5</strong>
+                  {/*<div className="col-lg-6 col-6 featured-border-start featured-border-bottom ps-5 py-2">*/}
+                  {/*  <strong className="featured-numbers">5</strong>*/}
 
-                    <p className="featured-text">Happy Customers</p>
-                  </div>
+                  {/*  <p className="featured-text">Happy Customers</p>*/}
+                  {/*</div>*/}
 
-                  <div className="col-lg-6 col-6 pt-4">
+                  <div className="col-lg-8 col-6 pt-4">
                     <strong className="featured-numbers">10</strong>
 
                     <p className="featured-text">Project Finished</p>
                   </div>
 
-                  <div className="col-lg-6 col-6 featured-border-start ps-5 pt-4">
-                    <strong className="featured-numbers mb-1">
-                      none yet :)
-                    </strong>
+                  {/*<div className="col-lg-6 col-6 featured-border-start ps-5 pt-4">*/}
+                  {/*  <strong className="featured-numbers mb-1">*/}
+                  {/*    none yet :)*/}
+                  {/*  </strong>*/}
 
-                    <p className="featured-text">Digital Awards</p>
-                  </div>
+                  {/*  <p className="featured-text">Digital Awards</p>*/}
+                  {/*</div>*/}
                 </div>
               </div>
             </div>

@@ -597,6 +597,28 @@ strong {
   border-left: 1px solid var(--border-color);
 }
 
+/*---------------------------------------
+  Tech that i've used
+-----------------------------------------*/
+
+.table-skills {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-medium);
+  position: relative;
+  overflow: hidden;
+}
+
+.table-small-title {
+  border-right: 1px solid var(--border-color);
+  color: var(--secondary-color);
+  font-weight: var(--font-weight-bold);
+  min-width: 175px;
+  margin-right: 10px;
+  padding: 13px 30px;
+  display: inline-block;
+}
+
+
 
 /*---------------------------------------
   CLIENTS              

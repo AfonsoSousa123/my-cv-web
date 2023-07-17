@@ -27,7 +27,7 @@ const About = () => {
                 <h3 className="pt-2 mb-3">a little bit about Afonso</h3>
 
                 <p>
-                  Full-Stack Developer . Currently undertaking{" "}
+                  Full-Stack Developer, currently undertaking{" "}
                   <a
                     className={"pe-1"}
                     href="https://www.uma.pt/en/ensino/1o-ciclo/licenciatura-em-engenharia-informatica/"
@@ -56,20 +56,21 @@ const About = () => {
 
                 <p>
                   So far i've done 5 interships in many institutions and
-                  companies, NearSoft Solutions, among them. wich i've enjoyed
-                  so much other website. Please{" "}
-                  <a href="https://templatemo.com/contact" target="_blank">
-                    contact us
-                  </a>{" "}
-                  for more info.
+                  companies,{" "}
+                  {/*<a href="https://nearsoft.pt/" target={"_blank"}>*/}
+                  {/*  NearSoft Solutions*/}
+                  {/*</a>*/}
+                  {/*, among them. */}
+                  My career goal is to be hired as a front-end of fullstack
+                  developer at a reputable company, creating wonderful websites.
                 </p>
 
                 <a
                   className="custom-btn btn custom-link"
                   target="_blank"
-                  href="../../public/CV-Afonso-Sousa.pdf"
+                  href="#"
                 >
-                  Download CV <i className={"bi-download p-1"}></i>
+                  Curriculum Vitae <i className={"bi-book p-1"}></i>
                 </a>
               </div>
             </div>
