@@ -63,15 +63,35 @@ const Contact = () => {
                   {/*</li>*/}
 
                   <li className="social-icon-item">
-                    <a href="#" className="social-icon-link bi-instagram"></a>
+                    <a
+                      href="https://github.com/AfonsoSousa123"
+                      target={"_blank"}
+                      className="social-icon-link bi-github"
+                    ></a>
                   </li>
 
                   <li className="social-icon-item">
-                    <a href="#" className="social-icon-link bi-pinterest"></a>
+                    <a
+                      href="#"
+                      target={"_blank"}
+                      className="social-icon-link bi-linkedin"
+                    ></a>
                   </li>
 
                   <li className="social-icon-item">
-                    <a href="#" className="social-icon-link bi-youtube"></a>
+                    <a
+                      href="#"
+                      target={"_blank"}
+                      className="social-icon-link bi-instagram"
+                    ></a>
+                  </li>
+
+                  <li className="social-icon-item">
+                    <a
+                      href="#"
+                      target={"_blank"}
+                      className="social-icon-link bi-youtube"
+                    ></a>
                   </li>
                 </ul>
 
@@ -109,7 +129,7 @@ const Contact = () => {
                 </strong>
 
                 <p className="mb-0">
-                  <a href="tel: +351 938 932 012">+351 938 932 012</a>
+                  <a href="tel: +351938932012">+351 938 932 012</a>
                 </p>
               </div>
             </div>

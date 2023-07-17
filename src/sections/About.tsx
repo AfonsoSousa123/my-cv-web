@@ -27,27 +27,50 @@ const About = () => {
                 <h3 className="pt-2 mb-3">a little bit about Afonso</h3>
 
                 <p>
-                  Full-Stack Developer . This layout is based on Bootstrap
-                  v5.1.3 CSS and JS libraries. Image credits go to{" "}
-                  <a href="https://unsplash.com" target="_blank">
-                    Unsplash
-                  </a>{" "}
-                  and{" "}
-                  <a href="https://freepik.com" target="_blank">
-                    FreePik
-                  </a>{" "}
-                  for images used in this page.
+                  Full-Stack Developer . Currently undertaking{" "}
+                  <a
+                    className={"pe-1"}
+                    href="https://www.uma.pt/en/ensino/1o-ciclo/licenciatura-em-engenharia-informatica/"
+                    target={"_blank"}
+                  >
+                    undergraduate degree in informatics engineering
+                  </a>
+                  , I've taken a{" "}
+                  <a
+                    className={"pe-1"}
+                    href="https://www.uma.pt/en/ensino/ctesp/ctesp-em-tecnologias-e-programacao-de-sistemas-de-informacao/"
+                    target={"_blank"}
+                  >
+                    HPTC in technologies and programming of information systems
+                  </a>
+                  ,in{" "}
+                  <a
+                    className={"pe-1"}
+                    href="https://www.uma.pt/en"
+                    target={"_blank"}
+                  >
+                    Universidade da Madeira
+                  </a>
+                  , providing a level 5 professional profile.
                 </p>
 
                 <p>
-                  You are allowed to use this template for your websites. You
-                  are not allowed to redistribute the template ZIP file on any
-                  other website. Please{" "}
+                  So far i've done 5 interships in many institutions and
+                  companies, NearSoft Solutions, among them. wich i've enjoyed
+                  so much other website. Please{" "}
                   <a href="https://templatemo.com/contact" target="_blank">
                     contact us
                   </a>{" "}
                   for more info.
                 </p>
+
+                <a
+                  className="custom-btn btn custom-link"
+                  target="_blank"
+                  href="../../public/CV-Afonso-Sousa.pdf"
+                >
+                  Download CV <i className={"bi-download p-1"}></i>
+                </a>
               </div>
             </div>
           </div>

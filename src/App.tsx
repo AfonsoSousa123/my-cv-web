@@ -13,6 +13,7 @@ import Hero from "./sections/Hero.tsx";
 import Header from "./components/Header.tsx";
 import Loader from "./components/Loader.tsx";
 import Footer from "./components/Footer.tsx";
+import Skills from "./sections/Skills.tsx";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,6 +31,7 @@ function App() {
         <Hero></Hero>
         <About></About>
         <Featured></Featured>
+        <Skills></Skills>
         <Clients></Clients>
         <Services></Services>
         <Projects></Projects>

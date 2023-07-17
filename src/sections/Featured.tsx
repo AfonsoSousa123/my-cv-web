@@ -13,25 +13,30 @@ const Featured = () => {
                 <div className="profile-body">
                   <p>
                     <span className="profile-small-title">Name</span>
-                    <span>Afonso Sousa</span>
+                    <span className={"text-truncate"}>Afonso Sousa</span>
                   </p>
 
                   <p>
                     <span className="profile-small-title">Birthday</span>
-                    <span>April 10, 2000</span>
+                    <span className={"text-truncate"}>April 10, 2000</span>
                   </p>
 
                   <p>
                     <span className="profile-small-title">Phone</span>
                     <span>
-                      <a href="tel:+351938932012">+351 938 932 012</a>
+                      <a className={"text-truncate"} href="tel:+351938932012">
+                        +351 938 932 012
+                      </a>
                     </span>
                   </p>
 
                   <p>
                     <span className="profile-small-title">Email</span>
                     <span>
-                      <a href="mailto:afonsosousa10@gmail.com">
+                      <a
+                        className={"text-end"}
+                        href="mailto:afonsosousa10@gmail.com"
+                      >
                         afonsosousa10@gmail.com
                       </a>
                     </span>
