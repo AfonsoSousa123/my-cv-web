@@ -1,27 +1,36 @@
 import { Fab } from "@mui/material";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const ScrollButton = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const prevScrollPos = useRef(0);
+
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
   };
 
   useEffect(() => {
-    // Button is displayed after scrolling for 500 pixels
     const toggleVisibility = () => {
-      if (window.pageYOffset > 500) {
+      const currentScrollPos = window.pageYOffset;
+
+      // Button is displayed after scrolling for 500 pixels
+      if (currentScrollPos > 500 && currentScrollPos > prevScrollPos.current) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
       }
+
+      prevScrollPos.current = currentScrollPos;
     };
-    // Toggle visibility on scroll event from scroll event listener to prevent scrolling
+
     window.addEventListener("scroll", toggleVisibility);
 
-    // Scroll to bottom position of button
     return () => window.removeEventListener("scroll", toggleVisibility);
-  }, []);
+  }, [isVisible]);
 
   return (
     <>

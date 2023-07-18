@@ -4,7 +4,7 @@ import { useState } from "react";
 import About from "./sections/About.tsx";
 import Featured from "./sections/Featured.tsx";
 import Clients from "./sections/Clients.tsx";
-import Services from "./sections/Services.tsx";
+// import Services from "./sections/Services.tsx";
 import Projects from "./sections/Projects.tsx";
 import Contact from "./sections/Contact.tsx";
 import Hero from "./sections/Hero.tsx";
@@ -32,16 +32,14 @@ function App() {
   return (
     <>
       {isLoading && <Loader></Loader>}
-
       <Header></Header>
-
       <main>
         <Hero></Hero>
         <About></About>
         <Featured></Featured>
         <Skills></Skills>
         <Clients></Clients>
-        <Services></Services>
+        {/*<Services></Services>*/}
         <Projects></Projects>
         <Contact></Contact>
         <ScrollButton></ScrollButton>

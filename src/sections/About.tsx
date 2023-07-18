@@ -56,13 +56,9 @@ const About = () => {
 
                 <p>
                   So far i've done 5 interships in many institutions and
-                  companies,{" "}
-                  {/*<a href="https://nearsoft.pt/" target={"_blank"}>*/}
-                  {/*  NearSoft Solutions*/}
-                  {/*</a>*/}
-                  {/*, among them. */}
-                  My career goal is to be hired as a front-end of fullstack
-                  developer at a reputable company, creating wonderful websites.
+                  companies, my career goal is to be hired as a front-end of
+                  fullstack developer at a reputable company, creating wonderful
+                  websites.
                 </p>
 
                 <button
