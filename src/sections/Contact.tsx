@@ -26,25 +26,25 @@ const Contact = () => {
 
                 <ul className="footer-menu">
                   <li className="footer-menu-item">
-                    <a href="#" className="footer-menu-link">
+                    <a href="#section_3" className="footer-menu-link">
                       Websites
                     </a>
                   </li>
 
                   <li className="footer-menu-item">
-                    <a href="#" className="footer-menu-link">
+                    <a href="#section_3" className="footer-menu-link">
                       APIs
                     </a>
                   </li>
 
                   <li className="footer-menu-item">
-                    <a href="#" className="footer-menu-link">
+                    <a href="#section_3" className="footer-menu-link">
                       Ecommerce
                     </a>
                   </li>
 
                   <li className="footer-menu-item">
-                    <a href="#" className="footer-menu-link">
+                    <a href="#section_3" className="footer-menu-link">
                       SEO
                     </a>
                   </li>

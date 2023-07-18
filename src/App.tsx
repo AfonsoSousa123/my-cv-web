@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 // Sections Files
 import About from "./sections/About.tsx";
@@ -14,12 +14,17 @@ import Header from "./components/Header.tsx";
 import Loader from "./components/Loader.tsx";
 import Footer from "./components/Footer.tsx";
 import Skills from "./sections/Skills.tsx";
+import ScrollButton from "./components/ScrollButton.tsx";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
-  setTimeout(() => {
-    setIsLoading(false);
-  }, 2000);
+
+  useEffect(() => {
+    // removes the spinner
+    window.onload = () => {
+      setIsLoading(false);
+    };
+  }, []);
 
   return (
     <>
@@ -36,6 +41,7 @@ function App() {
         <Services></Services>
         <Projects></Projects>
         <Contact></Contact>
+        <ScrollButton></ScrollButton>
       </main>
 
       <Footer></Footer>

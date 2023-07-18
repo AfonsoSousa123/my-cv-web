@@ -10,7 +10,7 @@ const Clients = () => {
               </h3>
             </div>
 
-            <div className="col-lg-4 col-sm-4 col-12 ms-auto clients-item-height">
+            <div className="col-lg-4 col-sm-4 col-12 mt-5 ms-auto clients-item-height">
               <a href="https://funchal.pt" target={"_blank"}>
                 <img
                   src="/images/clients/Brasao2021_Logotipo_Funchal_negativo.svg"
@@ -20,7 +20,7 @@ const Clients = () => {
               </a>
             </div>
 
-            <div className="col-lg-4 col-sm-4 col-12 clients-item-height">
+            <div className="col-lg-4 col-sm-4 col-12 mt-5 clients-item-height">
               <a href="https://nearsoft.pt/" target={"_blank"}>
                 <img
                   src="https://nearsoft-website.s3.eu-west-1.amazonaws.com/images/logo.svg"
@@ -30,7 +30,7 @@ const Clients = () => {
               </a>
             </div>
 
-            <div className="col-lg-4 col-sm-4 col-12 clients-item-height">
+            <div className="col-lg-4 col-sm-4 col-12 mt-5 clients-item-height">
               <a href="https://www.acin.pt" target={"_blank"}>
                 <img
                   src="/images/clients/acinlogo.svg"

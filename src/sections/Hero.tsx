@@ -21,7 +21,10 @@ const Hero = () => {
 
                 <h2 className="mb-4">I’m available for work.</h2>
                 <p className="mb-4">
-                  <a className="custom-btn btn custom-link" href="#section_2">
+                  <a
+                    className="custom-btn btn custom-link btn-hover-scale"
+                    href="#section_2"
+                  >
                     Let's begin
                   </a>
                 </p>

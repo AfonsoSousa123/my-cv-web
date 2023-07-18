@@ -27,13 +27,13 @@ const About = () => {
                 <h3 className="pt-2 mb-3">a little bit about Afonso</h3>
 
                 <p>
-                  Full-Stack Developer, currently undertaking{" "}
+                  Full-Stack Developer, currently undertaking a{" "}
                   <a
                     className={"pe-1"}
                     href="https://www.uma.pt/en/ensino/1o-ciclo/licenciatura-em-engenharia-informatica/"
                     target={"_blank"}
                   >
-                    undergraduate degree in informatics engineering
+                    undergraduate degree in Computer Science & Engineering
                   </a>
                   , I've taken a{" "}
                   <a
@@ -65,13 +65,15 @@ const About = () => {
                   developer at a reputable company, creating wonderful websites.
                 </p>
 
-                <a
-                  className="custom-btn btn custom-link"
-                  target="_blank"
-                  href="#"
+                <button
+                  className="custom-btn btn custom-link btn-hover-scale"
+                  type="button"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="This will show my CV"
                 >
                   Curriculum Vitae <i className={"bi-book p-1"}></i>
-                </a>
+                </button>
               </div>
             </div>
           </div>

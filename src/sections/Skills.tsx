@@ -10,35 +10,40 @@ const Skills = () => {
           </div>
 
           <div className="row">
-            <div className="col-lg-12 col">
-              <table className="table-skills table-responsive">
+            <div className="col-lg-12 d-flex justify-content-center">
+              <table className="table-skills">
+                <thead></thead>
                 <tbody>
                   <tr>
-                    <th className={"profile-small-title"}>
+                    <th className={"table-small-title"}>
                       <i className={"bi-check2-circle me-2"}></i>Languages
                     </th>
-                    <td>
+                    <td className={"table-td-skills"}>
                       PHP, JavaScript, TypeScript, Python, C++, Java, SQL, HTML,
                       CSS
                     </td>
                   </tr>
                   <tr>
-                    <th className={"profile-small-title"}>
+                    <th className={"table-small-title"}>
                       <i className={"bi-check2-circle me-2"}></i>Frameworks
                     </th>
-                    <td>Laravel, Next.js, Express.js, Django, Bootstrap</td>
+                    <td className={"table-td-skills"}>
+                      Laravel, Next.js, Express.js, Django, Bootstrap
+                    </td>
                   </tr>
                   <tr>
-                    <th className={"profile-small-title"}>
+                    <th className={"table-small-title"}>
                       <i className={"bi-check2-circle me-2"}></i>Libraries
                     </th>
-                    <td>React.js, JQuery</td>
+                    <td className={"table-td-skills"}>React.js, JQuery</td>
                   </tr>
                   <tr>
-                    <th className={"profile-small-title"}>
+                    <th className={"table-small-title"}>
                       <i className={"bi-check2-circle me-2"}></i>Tools
                     </th>
-                    <td>Node.js, Postman, MongoDB, MySQL, PostgreSQL</td>
+                    <td className={"table-td-skills"}>
+                      Node.js, Postman, MongoDB, MySQL, PostgreSQL
+                    </td>
                   </tr>
                 </tbody>
               </table>

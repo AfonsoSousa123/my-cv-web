@@ -4,7 +4,7 @@ const Featured = () => {
       <section className="featured section-padding">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-12">
+            <div className="col-lg-8 col-12">
               <div className="profile-thumb">
                 <div className="profile-title">
                   <h4 className="mb-0">Information</h4>
@@ -30,25 +30,33 @@ const Featured = () => {
                     </span>
                   </p>
 
+                  {/*<p>*/}
+                  {/*  <span className="profile-small-title">Email</span>*/}
+
+                  {/*  <a*/}
+                  {/*    className={"text-wrap "}*/}
+                  {/*    href="mailto:afonsosousa10@gmail.com"*/}
+                  {/*  >*/}
+                  {/*    afonsosousa10@gmail.com*/}
+                  {/*  </a>*/}
+                  {/*</p>*/}
+
                   <p>
-                    <span className="profile-small-title">Email</span>
+                    <span className="profile-small-title">Nationality</span>
+
                     <span>
-                      <a
-                        className={"text-end"}
-                        href="mailto:afonsosousa10@gmail.com"
-                      >
-                        afonsosousa10@gmail.com
-                      </a>
+                      <i className={""}></i>
+                      Portuguese
                     </span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-6 col-12 mt-5 mt-lg-0">
+            <div className="col-lg-4 col-12 mt-5 mt-lg-0">
               <div className="about-thumb">
                 <div className="row">
-                  <div className="col-lg-8 col-6 featured-border-bottom py-2">
+                  <div className="col-lg-8 col-6 py-2">
                     <strong className="featured-numbers">3+</strong>
 
                     <p className="featured-text">Years of Experiences</p>
