@@ -9,7 +9,7 @@ import "./assets/css/templatemo-first-portfolio-style.css";
 import "./assets/css/bootstrap-icons.css";
 
 // JS files
-import "./assets/js/jquery.min.js";
+// import "./assets/js/jquery.min.js";
 // import "./assets/js/bootstrap.min.js";
 // import "./assets/js/custom.js";
 // import "./assets/js/jquery.magnific-popup.min.js";

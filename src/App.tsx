@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 // Sections Files
 import About from "./sections/About.tsx";
@@ -18,13 +18,16 @@ import ScrollButton from "./components/ScrollButton.tsx";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
+  setTimeout(() => {
+    setIsLoading(false);
+  }, 2000);
 
-  useEffect(() => {
-    // removes the spinner
-    window.onload = () => {
-      setIsLoading(false);
-    };
-  }, []);
+  // useEffect(() => {
+  //   // removes the spinner indicator
+  //   window.onload = () => {
+  //     setIsLoading(false);
+  //   };
+  // }, []);
 
   return (
     <>
