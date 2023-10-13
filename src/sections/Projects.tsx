@@ -128,9 +128,9 @@ const Projects = () => {
             <div className="col-lg-4 col-md-6 col-12">
               <div className="projects-thumb">
                 <div className="projects-info">
-                  <small className="projects-tag">Website</small>
+                  <small className="projects-tag">Student Manager</small>
 
-                  <h3 className="projects-title">Photon Blog</h3>
+                  <h3 className="projects-title">UniCompanion</h3>
                 </div>
 
                 <a

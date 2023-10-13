@@ -27,7 +27,7 @@ const About = () => {
                 <h3 className="pt-2 mb-3">a little bit about Afonso</h3>
 
                 <p>
-                  Full-Stack Developer, currently undertaking a{" "}
+                  I am a Full-Stack Developer, currently undertaking a{" "}
                   <a
                     className={"pe-1"}
                     href="https://www.uma.pt/en/ensino/1o-ciclo/licenciatura-em-engenharia-informatica/"
@@ -55,21 +55,25 @@ const About = () => {
                 </p>
 
                 <p>
-                  So far i've done 5 interships in many institutions and
-                  companies, my career goal is to be hired as a front-end of
+                  So far i have done 5 internships in many institutions and
+                  companies, my career goal is to be hired as a front-end or
                   fullstack developer at a reputable company, creating wonderful
                   websites.
                 </p>
 
-                <button
+                <a
                   className="custom-btn btn custom-link btn-hover-scale"
+                  href={
+                    "https://drive.google.com/file/d/1_FwEJ4Ou-zIURTG2uNaLPKTJ18qAE3UW/view?usp=sharing"
+                  }
+                  target="_blank"
                   type="button"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="This will show my CV"
+                  title="Link to my CV in PDF"
                 >
                   Curriculum Vitae <i className={"bi-book p-1"}></i>
-                </button>
+                </a>
               </div>
             </div>
           </div>
