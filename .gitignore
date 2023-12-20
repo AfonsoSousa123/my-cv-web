@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+/src/dev/index.ts
+/src/dev/palette.tsx
+/src/dev/previews.tsx
+/src/dev/README.md
+/src/dev/useInitial.ts
