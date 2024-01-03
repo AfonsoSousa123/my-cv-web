@@ -1,7 +1,7 @@
 const Featured = () => {
   return (
     <>
-      <section className="featured section-padding">
+      <section className="featured section-padding" id="section_featured">
         <div className="container">
           <div className="row">
             <div className="col-lg-8 col-12">
@@ -30,16 +30,15 @@ const Featured = () => {
                     </span>
                   </p>
 
-                  {/*<p>*/}
-                  {/*  <span className="profile-small-title">Email</span>*/}
-
-                  {/*  <a*/}
-                  {/*    className={"text-wrap "}*/}
-                  {/*    href="mailto:afonsosousa10@gmail.com"*/}
-                  {/*  >*/}
-                  {/*    afonsosousa10@gmail.com*/}
-                  {/*  </a>*/}
-                  {/*</p>*/}
+                  <p>
+                    <span className="profile-small-title">Email</span>
+                    <a
+                      className={"text-wrap "}
+                      href="mailto:afonsosousa10@gmail.com"
+                    >
+                      afonsosousa10@gmail.com
+                    </a>
+                  </p>
 
                   <p>
                     <span className="profile-small-title">Nationality</span>

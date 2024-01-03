@@ -1,7 +1,7 @@
 const Clients = () => {
   return (
     <>
-      <section className="clients section-padding">
+      <section className="clients section-padding" id="section_clients">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-12 col-12">

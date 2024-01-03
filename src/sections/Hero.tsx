@@ -3,7 +3,7 @@ const Hero = () => {
     <>
       <section
         className="hero d-flex justify-content-center align-items-center"
-        id="section_1"
+        id="section_hero"
       >
         <div className="container">
           <div className="row">

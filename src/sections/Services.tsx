@@ -1,7 +1,7 @@
 const Services = () => {
   return (
     <>
-      <section className="services section-padding" id="section_3">
+      <section className="services section-padding" id="section_services">
         <div className="container">
           <div className="row">
             <div className="col-lg-10 col-12 mx-auto">

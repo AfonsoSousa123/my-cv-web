@@ -35,25 +35,37 @@ const Header = () => {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link click-scroll" href="#section_2">
+                <a className="nav-link click-scroll" href="#section_about">
                   About
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link click-scroll" href="#section_3">
+                <a className="nav-link click-scroll" href="#section_skills">
+                  Skills
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link click-scroll" href="#section_companies">
+                  Companies
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link click-scroll" href="#section_services">
                   Services
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link click-scroll" href="#section_4">
+                <a className="nav-link click-scroll" href="#section_projects">
                   Projects
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link click-scroll" href="#section_5">
+                <a className="nav-link click-scroll" href="#section_contact">
                   Contact
                 </a>
               </li>
@@ -61,7 +73,7 @@ const Header = () => {
 
             <div className="d-lg-flex align-items-center d-none ms-auto">
               <i className="navbar-icon bi-telephone-plus me-3"></i>
-              <a className="custom-btn btn" href="#section_5">
+              <a className="custom-btn btn" href="#section_contact">
                 +351 938 932 012
               </a>
             </div>

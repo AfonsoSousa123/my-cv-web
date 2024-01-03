@@ -1,11 +1,11 @@
 const Skills = () => {
   return (
     <>
-      <section className="skills section-padding">
+      <section className="skills section-padding" id="section_skills">
         <div className="container">
           <div className="section-title-wrap d-flex justify-content-center align-items-center mb-5">
             <h2 className="text-white py-5 mb-0">
-              Technologies that i've used
+              Technologies i've used
             </h2>
           </div>
 

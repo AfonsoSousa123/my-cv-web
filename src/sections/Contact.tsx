@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <>
-      <section className="contact section-padding" id="section_5">
+      <section className="contact section-padding" id="section_contact">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-8 col-12">
@@ -26,25 +26,25 @@ const Contact = () => {
 
                 <ul className="footer-menu">
                   <li className="footer-menu-item">
-                    <a href="#section_3" className="footer-menu-link">
+                    <a href="#section_services" className="footer-menu-link">
                       Websites
                     </a>
                   </li>
 
                   <li className="footer-menu-item">
-                    <a href="#section_3" className="footer-menu-link">
+                    <a href="#section_services" className="footer-menu-link">
                       APIs
                     </a>
                   </li>
 
                   <li className="footer-menu-item">
-                    <a href="#section_3" className="footer-menu-link">
+                    <a href="#section_services" className="footer-menu-link">
                       Ecommerce
                     </a>
                   </li>
 
                   <li className="footer-menu-item">
-                    <a href="#section_3" className="footer-menu-link">
+                    <a href="#section_services" className="footer-menu-link">
                       SEO
                     </a>
                   </li>
