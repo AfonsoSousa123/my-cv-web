@@ -21,7 +21,7 @@ const Header = () => {
 
           <div className="d-flex align-items-center d-lg-none">
             <i className="navbar-icon bi-telephone-plus me-3"></i>
-            <a className="custom-btn btn" href="#section_5">
+            <a className="custom-btn btn" href="#section_contact">
               +351 938 932 012
             </a>
           </div>
@@ -52,11 +52,11 @@ const Header = () => {
                 </a>
               </li>
 
-              <li className="nav-item">
-                <a className="nav-link click-scroll" href="#section_services">
-                  Services
-                </a>
-              </li>
+              {/*<li className="nav-item">*/}
+              {/*  <a className="nav-link click-scroll" href="#section_services">*/}
+              {/*    Services*/}
+              {/*  </a>*/}
+              {/*</li>*/}
 
               <li className="nav-item">
                 <a className="nav-link click-scroll" href="#section_projects">

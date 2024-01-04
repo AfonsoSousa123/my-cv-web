@@ -1,7 +1,7 @@
-const Clients = () => {
+const Companies = () => {
   return (
     <>
-      <section className="clients section-padding" id="section_clients">
+      <section className="clients section-padding" id="section_companies">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-12 col-12">
@@ -45,4 +45,4 @@ const Clients = () => {
     </>
   );
 };
-export default Clients;
+export default Companies;

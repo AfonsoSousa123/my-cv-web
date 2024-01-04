@@ -14,11 +14,13 @@ https://templatemo.com/tm-578-first-portfolio
   --white-color: rgb(255, 255, 255);
   --primary-color:                #535da1;
   --secondary-color:              #007177;
-  --section-bg-color:             #f9f9f9;
+  --section-bg-color:             #e8e8e8;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
   --featured-border-color:        #727aab;
+  --profile-thumb-bg-color:     #a5a5a582;
+
 
   --body-font-family:             'Rubik', 'DM Sans', sans-serif;
 
@@ -559,8 +561,9 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .profile-thumb {
-  border: 1px solid var(--border-color);
+  border: 1px solid #a5a5a582;
   border-radius: var(--border-radius-medium);
+  background-color: var(--profile-thumb-bg-color);;
   position: relative;
   overflow: hidden;
 }
