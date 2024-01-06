@@ -16,14 +16,14 @@ const Hero = () => {
                     alt=""
                   />
 
-                  <h1 className="hero-title ms-3 mb-0">Hello friend!</h1>
+                  <h1 className="hero-title ms-3 mb-0">Hello!</h1>
                 </div>
 
                 <h2 className="mb-4">I’m available for work.</h2>
                 <p className="mb-4">
                   <a
                     className="custom-btn btn custom-link btn-hover-scale"
-                    href="#section_2"
+                    href="#section_about"
                   >
                     Let's begin
                   </a>
