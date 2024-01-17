@@ -6,7 +6,7 @@ const Companies = () => {
           <div className="row align-items-center">
             <div className="col-lg-12 col-12">
               <h3 className="text-center text-white mb-5">
-                Institutions and Companies I've had worked
+                Institutions and Companies i've worked with
               </h3>
             </div>
 
