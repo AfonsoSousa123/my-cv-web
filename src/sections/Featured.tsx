@@ -34,9 +34,9 @@ const Featured = () => {
                     <span className="profile-small-title">Email</span>
                     <a
                       className={"text-wrap "}
-                      href="mailto:afonsosousa10@gmail.com"
+                      href="mailto:afonso.he.sousa@gmail.com"
                     >
-                      afonsosousa10@gmail.com
+                      afonso.he.sousa@gmail.com
                     </a>
                   </p>
 
