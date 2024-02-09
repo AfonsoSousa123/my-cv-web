@@ -4,9 +4,7 @@ const Skills = () => {
       <section className="skills section-padding" id="section_skills">
         <div className="container">
           <div className="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-            <h2 className="text-white py-5 mb-0">
-              Technologies i've used
-            </h2>
+            <h2 className="text-white py-5 mb-0">Technologies i've used</h2>
           </div>
 
           <div className="row">
@@ -42,7 +40,7 @@ const Skills = () => {
                       <i className={"bi-check2-circle me-2"}></i>Tools
                     </th>
                     <td className={"table-td-skills"}>
-                      Node.js, Postman, MongoDB, MySQL, PostgreSQL
+                      Node.js, Postman, MongoDB, MySQL, PostgreSQL, Joomla
                     </td>
                   </tr>
                 </tbody>

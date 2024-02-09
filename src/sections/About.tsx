@@ -4,24 +4,26 @@ const About = () => {
       <section className="about section-padding" id="section_about">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-12">
-              <img
-                src="/images/couple-working-from-home-together-sofa.jpg"
-                className="about-image img-fluid"
-                alt=""
-              />
-            </div>
+            {/*<div className="col-lg-6 col-12">*/}
+            {/*  <img*/}
+            {/*    src="/images/couple-working-from-home-together-sofa.jpg"*/}
+            {/*    className="about-image img-fluid"*/}
+            {/*    alt=""*/}
+            {/*  />*/}
+            {/*</div>*/}
 
-            <div className="col-lg-6 col-12 mt-5 mt-lg-0">
+            <div className="col-lg-12 col-12 mt-5 mt-lg-0">
               <div className="about-thumb">
-                <div className="section-title-wrap d-flex justify-content-end align-items-center mb-4">
-                  <h2 className="text-white me-4 mb-0">My Story</h2>
+                <div className="col-8">
+                  <div className="section-title-wrap d-flex justify-content-center align-items-center mb-4">
+                    <h2 className="text-white me-4 mb-0">My Story</h2>
 
-                  <img
-                    src="/images/AfonsoPic.jpg"
-                    className="avatar-image img-fluid"
-                    alt=""
-                  />
+                    <img
+                      src="/images/AfonsoPic.jpg"
+                      className="avatar-image img-fluid"
+                      alt=""
+                    />
+                  </div>
                 </div>
 
                 <h3 className="pt-2 mb-3">a little bit about Afonso</h3>
@@ -58,8 +60,21 @@ const About = () => {
                   So far i have done 5 internships in many institutions and
                   companies, my career goal is to be hired as a front-end or
                   fullstack developer at a reputable company, creating wonderful
-                  websites.
+                  websites and doing what i love most.
                 </p>
+
+                <p>
+                  I also have taken part in an Erasmus+ program in 2016 in the
+                  Capital of Lithuania, Vilnius, which was a fullfiling
+                  experience.
+                </p>
+
+                <p>
+                  I am a very dedicated and hardworking person, always looking
+                  for new challenges and opportunities to grow and learn.
+                </p>
+
+                <p>To know more about me, check my CV below</p>
 
                 <a
                   className="custom-btn btn custom-link btn-hover-scale"

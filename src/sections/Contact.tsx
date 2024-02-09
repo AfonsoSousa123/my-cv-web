@@ -119,8 +119,8 @@ const Contact = () => {
                 </strong>
 
                 <p>
-                  <a href="mailto:afonsosousa10@gmail.com">
-                    afonsosousa10@gmail.com
+                  <a href="mailto:afonso.he.sousa@gmail.com">
+                    afonso.he.sousa@gmail.com
                   </a>
                 </p>
 

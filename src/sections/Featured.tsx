@@ -32,12 +32,11 @@ const Featured = () => {
 
                   <p>
                     <span className="profile-small-title">Email</span>
-                    <a
-                      className={"text-wrap "}
-                      href="mailto:afonso.he.sousa@gmail.com"
-                    >
-                      afonso.he.sousa@gmail.com
-                    </a>
+                    <span className={"text-wrap"}>
+                      <a href="mailto:afonso.he.sousa@gmail.com">
+                        afonso.he.sousa@gmail.com
+                      </a>
+                    </span>
                   </p>
 
                   <p>

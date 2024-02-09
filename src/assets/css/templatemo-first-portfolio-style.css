@@ -1177,6 +1177,13 @@ section.clients {
     padding: 40px 30px;
   }
 
+  @media (max-width: 500px) {
+    .text-wrap {
+      word-wrap: break-word; /* This property ensures that words break at the end of the line if necessary */
+      overflow-wrap: break-word; /* This property ensures that words break at the end of the line if necessary */
+    }
+  }
+
   .contact-info-border-start {
     border-right: 0;
     border-bottom: 1px solid var(--border-color);

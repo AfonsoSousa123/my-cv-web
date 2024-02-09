@@ -7,18 +7,18 @@ const Footer = () => {
             <div className="col-lg-12 col-12">
               <div className="copyright-text-wrap">
                 <p className="mb-0">
-                  {/*<span className="copyright-text">*/}
-                  {/*  Copyright © 2036 <a href="/">First Portfolio</a> Company.*/}
-                  {/*  All rights reserved.*/}
-                  {/*</span>*/}
                   Designed and Developed by:
                   <a
                     rel="sponsored"
                     href="https://github.com/AfonsoSousa123"
                     target="_blank"
+                    className={"ms-1"}
                   >
                     Afonso Sousa
                   </a>
+                  {/*<span className="copyright-text">*/}
+                  {/*  Copyright © 2036 . All rights reserved.*/}
+                  {/*</span>*/}
                 </p>
               </div>
             </div>
