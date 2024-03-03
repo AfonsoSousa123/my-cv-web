@@ -13,7 +13,7 @@ const Featured = () => {
                 <div className="profile-body">
                   <p>
                     <span className="profile-small-title">Name</span>
-                    <span className={"text-truncate"}>Afonso Sousa</span>
+                    <span className={"text-truncate"}>João Afonso Henriques de Sousa</span>
                   </p>
 
                   <p>
