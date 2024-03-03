@@ -10,7 +10,6 @@ const Skills = () => {
           <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">
               <table className="table-skills">
-                <thead></thead>
                 <tbody>
                   <tr>
                     <th className={"table-small-title"}>
@@ -26,7 +25,7 @@ const Skills = () => {
                       <i className={"bi-check2-circle me-2"}></i>Frameworks
                     </th>
                     <td className={"table-td-skills"}>
-                      Laravel, Next.js, Express.js, Django, Bootstrap
+                      Laravel, Bootstrap, Next.js, Express.js, Django
                     </td>
                   </tr>
                   <tr>
@@ -40,7 +39,7 @@ const Skills = () => {
                       <i className={"bi-check2-circle me-2"}></i>Tools
                     </th>
                     <td className={"table-td-skills"}>
-                      Node.js, Postman, MongoDB, MySQL, PostgreSQL, Joomla
+                      Node.js, Vite.js, Postman, MongoDB, MySQL, PostgreSQL, Joomla
                     </td>
                   </tr>
                 </tbody>
