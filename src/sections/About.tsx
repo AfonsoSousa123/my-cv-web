@@ -78,7 +78,7 @@ const About = () => {
                 <a
                   className="custom-btn btn custom-link btn-hover-scale"
                   href={
-                    "https://drive.google.com/file/d/1_FwEJ4Ou-zIURTG2uNaLPKTJ18qAE3UW/view?usp=sharing"
+                    "https://drive.google.com/file/d/1RF25Q-G9DvSf-MPqbeNb60hnZmtLjQ6D/view?usp=sharing"
                   }
                   target="_blank"
                   type="button"
