@@ -21,23 +21,88 @@ const Projects = () => {
             <div className="col-lg-4 col-md-6 col-12">
               <div className="projects-thumb">
                 <div className="projects-info">
-                  <small className="projects-tag">Website</small>
+                  <small className="projects-tag">Back Office</small>
 
-                  <h3 className="projects-title">Buses and Company Blog</h3>
+                  <h3 className="projects-title">
+                    NearSoft Solutions Backoffice
+                  </h3>
                 </div>
 
                 <a
-                  href="/images/projects/nikhil-KO4io-eCAXA-unsplash.jpg"
+                  href="/images/projects/Nearsoft-Backoffice.png"
                   className="popup-image"
                 >
                   <img
-                    src="/images/projects/nikhil-KO4io-eCAXA-unsplash.jpg"
+                    src="/images/projects/Nearsoft-Backoffice.png"
                     className="projects-image img-fluid"
                     alt=""
                   />
                 </a>
               </div>
             </div>
+
+            {/*<div className="col-lg-4 col-md-6 col-12">*/}
+            {/*  <div className="projects-thumb">*/}
+            {/*    <div className="projects-info">*/}
+            {/*      <small className="projects-tag">Back Office</small>*/}
+
+            {/*      <h3 className="projects-title">Image Desktop Admin</h3>*/}
+            {/*    </div>*/}
+
+            {/*    <a*/}
+            {/*      href="/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"*/}
+            {/*      className="popup-image"*/}
+            {/*    >*/}
+            {/*      <img*/}
+            {/*        src="/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"*/}
+            {/*        className="projects-image img-fluid"*/}
+            {/*        alt=""*/}
+            {/*      />*/}
+            {/*    </a>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
+
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="projects-thumb">
+                <div className="projects-info">
+                  <small className="projects-tag">Website</small>
+
+                  <h3 className="projects-title">Buses and Company Blog</h3>
+                </div>
+
+                <a
+                  href="/images/projects/Buses-and-company.png"
+                  className="popup-image"
+                >
+                  <img
+                    src="/images/projects/Buses-and-company.png"
+                    className="projects-image img-fluid"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+
+            {/*<div className="col-lg-4 col-md-6 col-12">*/}
+            {/*  <div className="projects-thumb">*/}
+            {/*    <div className="projects-info">*/}
+            {/*      <small className="projects-tag">Back Office</small>*/}
+
+            {/*      <h3 className="projects-title">Equipment Logistic Admin</h3>*/}
+            {/*    </div>*/}
+
+            {/*    <a*/}
+            {/*      href="/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"*/}
+            {/*      className="popup-image"*/}
+            {/*    >*/}
+            {/*      <img*/}
+            {/*        src="/images/projects/the-5th-IQYR7N67dhM-unsplash.jpg"*/}
+            {/*        className="projects-image img-fluid"*/}
+            {/*        alt=""*/}
+            {/*      />*/}
+            {/*    </a>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
 
             <div className="col-lg-4 col-md-6 col-12">
               <div className="projects-thumb">
@@ -47,12 +112,9 @@ const Projects = () => {
                   <h3 className="projects-title">Egames Blog</h3>
                 </div>
 
-                <a
-                  href="/images/projects/nikhil-KO4io-eCAXA-unsplash.jpg"
-                  className="popup-image"
-                >
+                <a href="/images/projects/Egames.png" className="popup-image">
                   <img
-                    src="/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"
+                    src="/images/projects/Egames.png"
                     className="projects-image img-fluid"
                     alt=""
                   />
@@ -60,91 +122,26 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 col-12">
-              <div className="projects-thumb">
-                <div className="projects-info">
-                  <small className="projects-tag">Back Office</small>
+            {/*<div className="col-lg-4 col-md-6 col-12">*/}
+            {/*  <div className="projects-thumb">*/}
+            {/*    <div className="projects-info">*/}
+            {/*      <small className="projects-tag">Student Manager</small>*/}
 
-                  <h3 className="projects-title">
-                    NearSoft Solutions Backoffice
-                  </h3>
-                </div>
+            {/*      <h3 className="projects-title">UniCompanion</h3>*/}
+            {/*    </div>*/}
 
-                <a
-                  href="/images/projects/the-5th-IQYR7N67dhM-unsplash.jpg"
-                  className="popup-image"
-                >
-                  <img
-                    src="/images/projects/the-5th-IQYR7N67dhM-unsplash.jpg"
-                    className="projects-image img-fluid"
-                    alt=""
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-12">
-              <div className="projects-thumb">
-                <div className="projects-info">
-                  <small className="projects-tag">Back Office</small>
-
-                  <h3 className="projects-title">Image Desktop Admin</h3>
-                </div>
-
-                <a
-                  href="/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"
-                  className="popup-image"
-                >
-                  <img
-                    src="/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"
-                    className="projects-image img-fluid"
-                    alt=""
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-12">
-              <div className="projects-thumb">
-                <div className="projects-info">
-                  <small className="projects-tag">Back Office</small>
-
-                  <h3 className="projects-title">Equipment Logistic Admin</h3>
-                </div>
-
-                <a
-                  href="/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"
-                  className="popup-image"
-                >
-                  <img
-                    src="/images/projects/the-5th-IQYR7N67dhM-unsplash.jpg"
-                    className="projects-image img-fluid"
-                    alt=""
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-12">
-              <div className="projects-thumb">
-                <div className="projects-info">
-                  <small className="projects-tag">Student Manager</small>
-
-                  <h3 className="projects-title">UniCompanion</h3>
-                </div>
-
-                <a
-                  href="/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"
-                  className="popup-image"
-                >
-                  <img
-                    src="/images/projects/the-5th-IQYR7N67dhM-unsplash.jpg"
-                    className="projects-image img-fluid"
-                    alt=""
-                  />
-                </a>
-              </div>
-            </div>
+            {/*    <a*/}
+            {/*      href="/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"*/}
+            {/*      className="popup-image"*/}
+            {/*    >*/}
+            {/*      <img*/}
+            {/*        src="/images/projects/the-5th-IQYR7N67dhM-unsplash.jpg"*/}
+            {/*        className="projects-image img-fluid"*/}
+            {/*        alt=""*/}
+            {/*      />*/}
+            {/*    </a>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </div>
         </div>
       </section>
