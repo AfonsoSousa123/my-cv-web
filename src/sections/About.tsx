@@ -4,14 +4,6 @@ const About = () => {
       <section className="about section-padding" id="section_about">
         <div className="container">
           <div className="row">
-            {/*<div className="col-lg-6 col-12">*/}
-            {/*  <img*/}
-            {/*    src="/images/couple-working-from-home-together-sofa.jpg"*/}
-            {/*    className="about-image img-fluid"*/}
-            {/*    alt=""*/}
-            {/*  />*/}
-            {/*</div>*/}
-
             <div className="col-lg-12 col-12 mt-5 mt-lg-0">
               <div className="about-thumb">
                 <div className="col-sm-12 col-md-8 col-lg-8">
@@ -29,7 +21,7 @@ const About = () => {
                 <h3 className="pt-2 mb-3">A little bit about Afonso</h3>
 
                 <p>
-                  I am a Full-Stack Developer, currently undertaking a{" "}
+                  I am a Front-End Developer, currently undertaking a{" "}
                   <a
                     className={"pe-1"}
                     href="https://www.uma.pt/en/ensino/1o-ciclo/licenciatura-em-engenharia-informatica/"
@@ -57,8 +49,8 @@ const About = () => {
 
                 <p>
                   So far I have done 5 internships in many institutions and
-                  companies, my career goal is to be hired as a front-end or
-                  fullstack developer at a reputable company, creating wonderful
+                  companies, my career goal is to be hired as a Front-End or
+                  Mobile developer at a reputable company, creating wonderful
                   websites and doing what I love most.
                 </p>
 

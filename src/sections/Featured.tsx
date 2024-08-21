@@ -67,7 +67,7 @@ const Featured = () => {
                   {/*</div>*/}
 
                   <div className="col-lg-8 col-6 pt-4">
-                    <strong className="featured-numbers">10</strong>
+                    <strong className="featured-numbers">7</strong>
 
                     <p className="featured-text">Project Finished</p>
                   </div>

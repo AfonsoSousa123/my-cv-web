@@ -20,10 +20,7 @@ const Header = () => {
           </a>
 
           <div className="d-flex align-items-center d-lg-none">
-            <i className="navbar-icon bi-telephone-plus me-3"></i>
-            <a className="custom-btn btn" href="#section_contact">
-              +351 938 932 012
-            </a>
+            <a className="navbar-icon bi-telephone-plus me-3" href="#section_contact"></a>
           </div>
 
           <div className="collapse navbar-collapse" id="navbarNav">
@@ -72,10 +69,7 @@ const Header = () => {
             </ul>
 
             <div className="d-lg-flex align-items-center d-none ms-auto">
-              <i className="navbar-icon bi-telephone-plus me-3"></i>
-              <a className="custom-btn btn" href="#section_contact">
-                +351 938 932 012
-              </a>
+              <a className="navbar-icon bi-telephone-plus icon-link-hover me-3" href="#section_contact"></a>
             </div>
           </div>
         </div>
