@@ -11,7 +11,7 @@ import "./assets/css/bootstrap-icons.css";
 // JS files
 // import "@popperjs/core"
 // import "./assets/js/jquery.min.js";
-// import "./assets/js/bootstrap.min.js";
+import "./assets/js/bootstrap.min.js";
 // import "./assets/js/jquery.sticky.js";
 // import "./assets/js/click-scroll.js";
 // import "./assets/js/jquery.magnific-popup.min.js";

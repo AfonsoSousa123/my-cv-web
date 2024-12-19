@@ -22,13 +22,6 @@ function App() {
     setIsLoading(false);
   }, 2000);
 
-  // useEffect(() => {
-  //   // removes the spinner indicator
-  //   window.onload = () => {
-  //     setIsLoading(false);
-  //   };
-  // }, []);
-
   return (
     <>
       {isLoading && <Loader></Loader>}

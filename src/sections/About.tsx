@@ -10,15 +10,15 @@ const About = () => {
                   <div className="section-title-wrap d-flex justify-content-center align-items-center mb-4">
                     <h2 className="text-white me-4 mb-0">My Story</h2>
 
-                    <img
-                      src="/images/AfonsoPic.jpg"
-                      className="avatar-image img-fluid"
-                      alt=""
-                    />
+                    {/*<img*/}
+                    {/*  src="/images/AfonsoPic.jpg"*/}
+                    {/*  className="avatar-image img-fluid"*/}
+                    {/*  alt=""*/}
+                    {/*/>*/}
                   </div>
                 </div>
 
-                <h3 className="pt-2 mb-3">A little bit about Afonso</h3>
+                <h3 className="pt-2 mb-3">A little bit about me</h3>
 
                 <p>
                   I am a Front-End Developer, currently undertaking a{" "}
