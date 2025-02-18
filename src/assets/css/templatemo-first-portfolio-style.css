@@ -1219,6 +1219,8 @@ section.clients {
     font-size: 20px;
   }
 
+
+
   .custom-btn,
   .navbar .custom-btn {
     font-size: 13px;
@@ -1242,3 +1244,15 @@ section.clients {
   }
 }
 
+.navbar-collapse {
+  transition: max-height 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.navbar-collapse.collapsing {
+  max-height: 0;
+}
+
+.navbar-collapse.show {
+  max-height: 500px;
+}
