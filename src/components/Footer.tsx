@@ -1,3 +1,4 @@
+
 const Footer = () => {
   return (
     <>
@@ -6,6 +7,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-12 col-12">
               <div className="copyright-text-wrap">
+
                 <p className="mb-0">
                   Designed and Developed by:
                   <a
@@ -16,9 +18,8 @@ const Footer = () => {
                   >
                     Afonso Sousa
                   </a>
-                  {/*<span className="copyright-text">*/}
-                  {/*  Copyright © 2036 . All rights reserved.*/}
-                  {/*</span>*/}
+
+                  <img className="mx-2" width={50} src={"/Logos/AS-Logo-Dark.png"} alt="logo" />
                 </p>
               </div>
             </div>
