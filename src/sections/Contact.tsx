@@ -72,7 +72,7 @@ const Contact = () => {
 
                     <li className="social-icon-item">
                       <a
-                          href="#"
+                          href="https://www.linkedin.com/in/afonso-he-sousa/"
                           target={"_blank"}
                           className="social-icon-link bi-linkedin"
                       ></a>
