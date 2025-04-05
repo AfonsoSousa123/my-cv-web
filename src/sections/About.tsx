@@ -8,61 +8,67 @@ const About = () => {
               <div className="about-thumb">
                 <div className="col-sm-12 col-md-8 col-lg-8">
                   <div className="section-title-wrap d-flex justify-content-center align-items-center mb-4">
-                    <h2 className="text-white me-4 mb-0">My Story</h2>
-
                     {/*<img*/}
-                    {/*  src="/images/AfonsoPic.jpg"*/}
-                    {/*  className="avatar-image img-fluid"*/}
-                    {/*  alt=""*/}
+                    {/*    src="/Logos/AS-Logo-NoBG.png"*/}
+                    {/*    className="avatar-image img-fluid logo"*/}
+                    {/*    alt=""*/}
                     {/*/>*/}
+
+                    <h2 className="text-white mx-3 mb-0">My Story</h2>
                   </div>
                 </div>
 
                 <h3 className="pt-2 mb-3">A little bit about me</h3>
 
                 <p>
-                  I am a Front-End Developer, currently undertaking a{" "}
+                  Holding a {" "}
+                  <strong>Level 5 professional certification</strong>
+                  {" "}
+                  in Information Systems
+                  Technologies and Programming from the{" "}
                   <a
-                    className={"pe-1"}
-                    href="https://www.uma.pt/en/ensino/1o-ciclo/licenciatura-em-engenharia-informatica/"
-                    target={"_blank"}
+                      className={"pe-1"}
+                      href="https://www.uma.pt/en"
+                      target={"_blank"}
                   >
-                    undergraduate degree in Computer Science & Engineering,
-                  </a> I've taken a{" "}
-                  <a
-                    className={"pe-1"}
-                    href="https://www.uma.pt/en/ensino/ctesp/ctesp-em-tecnologias-e-programacao-de-sistemas-de-informacao/"
-                    target={"_blank"}
-                  >
-                    HPTC in technologies and programming of information systems,
+                    <strong>Universidade da Madeira,</strong>
                   </a>
-                  in{" "}
+                  obtained through the{" "}
                   <a
-                    className={"pe-1"}
-                    href="https://www.uma.pt/en"
-                    target={"_blank"}
+                      className={"pe-1"}
+                      href="https://www.uma.pt/en/ensino/ctesp/ctesp-em-tecnologias-e-programacao-de-sistemas-de-informacao/"
+                      target={"_blank"}
                   >
-                    Universidade da Madeira,
+                    <strong>Higher Polytechnic Technician Course (HPTC),</strong>
                   </a>
-                  providing a level 5 professional profile.
+                  I am a front-end developer pursuing a{" "}
+                  <a
+                      className={"pe-1"}
+                      href="https://www.uma.pt/en/ensino/1o-ciclo/licenciatura-em-engenharia-informatica/"
+                      target={"_blank"}
+                  >
+                    <strong>Undergraduate Degree in Computer Science & Engineering.</strong>
+                  </a>
+                  also at{" "}
+                  <a
+                      className={"pe-1"}
+                      href="https://www.uma.pt/en"
+                      target={"_blank"}
+                  >
+                    <strong>Universidade da Madeira,</strong>
+                  </a>
+                </p>
+
+
+                <p>
+                  My five internships with diverse organizations have provided comprehensive
+                  preparation for a front-end or mobile developer role within a leading company,
+                  enabling me to contribute to the creation of exceptional websites.
                 </p>
 
                 <p>
-                  So far I have done 5 internships in many institutions and
-                  companies, my career goal is to be hired as a Front-End or
-                  Mobile developer at a reputable company, creating wonderful
-                  websites and doing what I love most.
-                </p>
-
-                <p>
-                  I also have taken part in an Erasmus+ program in 2016 in the
-                  Capital of Lithuania, Vilnius, which was a fullfiling
-                  experience.
-                </p>
-
-                <p>
-                  I am a very dedicated and hardworking person, always looking
-                  for new challenges and opportunities to grow and learn.
+                  I am a highly motivated, passionate and results-oriented individual dedicated to
+                  continuous professional growth and development.
                 </p>
 
                 <p>To know more about me, check my CV below</p>
@@ -88,4 +94,5 @@ const About = () => {
     </>
   );
 };
+
 export default About;

@@ -78,21 +78,21 @@ const Contact = () => {
                       ></a>
                     </li>
 
-                    <li className="social-icon-item">
-                      <a
-                          href="#"
-                          target={"_blank"}
-                          className="social-icon-link bi-instagram"
-                      ></a>
-                    </li>
+                    {/*<li className="social-icon-item">*/}
+                    {/*  <a*/}
+                    {/*      href="#"*/}
+                    {/*      target={"_blank"}*/}
+                    {/*      className="social-icon-link bi-instagram"*/}
+                    {/*  ></a>*/}
+                    {/*</li>*/}
 
-                    <li className="social-icon-item">
-                      <a
-                          href="#"
-                          target={"_blank"}
-                          className="social-icon-link bi-youtube"
-                      ></a>
-                    </li>
+                    {/*<li className="social-icon-item">*/}
+                    {/*  <a*/}
+                    {/*      href="#"*/}
+                    {/*      target={"_blank"}*/}
+                    {/*      className="social-icon-link bi-youtube"*/}
+                    {/*  ></a>*/}
+                    {/*</li>*/}
                   </ul>
 
                   <strong className="site-footer-title d-block mt-4 mb-3">
