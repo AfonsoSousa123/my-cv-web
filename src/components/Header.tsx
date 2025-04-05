@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Logo from "./Branding/Logo.tsx";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,7 +37,7 @@ const Header = () => {
             </button>
 
             <a href="/" className="navbar-brand mx-auto mx-lg-0">
-              CV Portfolio
+              <Logo />
             </a>
 
             <div className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`} id="navbarNav">

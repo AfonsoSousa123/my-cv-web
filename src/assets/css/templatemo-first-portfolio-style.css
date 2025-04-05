@@ -347,7 +347,7 @@ strong {
 }
 
 .is-sticky .navbar .custom-btn:hover {
-  background: var(--secondary-color);
+  background: var(--dark-color);
   color: var(--white-color);
 }
 
@@ -408,12 +408,12 @@ strong {
 
 .navbar-nav .nav-link.active::after,
 .navbar-nav .nav-link:hover::after {
-  background: var(--secondary-color);
+  background: var(--dark-color);
 }
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-  color: var(--secondary-color);
+  color: var(--dark-color);
 }
 
 .navbar-toggler {
@@ -1256,3 +1256,23 @@ section.clients {
 .navbar-collapse.show {
   max-height: 500px;
 }
+
+/* LOGO */
+.logo {
+  width: 100px;
+  height: auto;
+  max-width: 200px;
+}
+
+@media screen and (max-width: 991px) {
+  .logo {
+    width: 70px;
+    background: #007076;
+    border-radius: 100%;
+  }
+}
+
+/*---------------------------------------
+  END OF FILE
+
+ */
