@@ -70,7 +70,7 @@ const About = () => {
                 <a
                   className="custom-btn btn custom-link btn-hover-scale"
                   href={
-                    "https://drive.google.com/file/d/1RF25Q-G9DvSf-MPqbeNb60hnZmtLjQ6D/view?usp=sharing"
+                    "https://drive.google.com/file/d/1wF0RFaP4cGwSUAK5Oq89_xlPH4FKiq32/view?usp=sharing"
                   }
                   target="_blank"
                   type="button"
