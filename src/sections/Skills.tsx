@@ -25,7 +25,7 @@ const Skills = () => {
                       <i className={"bi-check2-circle me-2"}></i>Frameworks
                     </th>
                     <td className={"table-td-skills"}>
-                      Laravel, Bootstrap, Next.js, Express.js, Django
+                      Laravel, Bootstrap, Tailwind CSS, Next.js, Express.js, Django
                     </td>
                   </tr>
                   <tr>
@@ -39,7 +39,7 @@ const Skills = () => {
                       <i className={"bi-check2-circle me-2"}></i>Tools
                     </th>
                     <td className={"table-td-skills"}>
-                      Node.js, Vite.js, Postman, MongoDB, MySQL, PostgreSQL, Joomla
+                      Node.js, Vite.js, Docker, Postman, MongoDB, MySQL, PostgreSQL, Joomla, Expo Go
                     </td>
                   </tr>
                 </tbody>
