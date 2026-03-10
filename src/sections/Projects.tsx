@@ -21,21 +21,16 @@ const Projects = () => {
             <div className="col-lg-4 col-md-6 col-12">
               <div className="projects-thumb">
                 <div className="projects-info">
-                  <small className="projects-tag">Back Office</small>
+                  <small className="projects-tag">Website</small>
 
-                  <h3 className="projects-title">
-                    NearSoft Solutions Backoffice
-                  </h3>
+                  <h3 className="projects-title">Celestial Capture</h3>
                 </div>
 
-                <a
-                    href="/images/projects/Nearsoft-Backoffice.png"
-                    className="popup-image"
-                >
+                <a href="https://celestialcapture.onrender.com/" target={"_blank"} className="popup-image">
                   <img
-                      src="/images/projects/Nearsoft-Backoffice.png"
+                      src="/images/projects/CelestialCapture.png"
                       className="projects-image img-fluid"
-                      alt="Nearsoft-Backoffice"
+                      alt="Celestial Capture"
                   />
                 </a>
               </div>
@@ -61,6 +56,24 @@ const Projects = () => {
             {/*    </a>*/}
             {/*  </div>*/}
             {/*</div>*/}
+
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="projects-thumb">
+                <div className="projects-info">
+                  <small className="projects-tag">Website</small>
+
+                  <h3 className="projects-title">F1 SIGA</h3>
+                </div>
+
+                <a href="https://f1-siga.onrender.com/" target={"_blank"} className="popup-image">
+                  <img
+                      src="/images/projects/F1-SIGA.png"
+                      className="projects-image img-fluid"
+                      alt="F1-SIGA"
+                  />
+                </a>
+              </div>
+            </div>
 
             <div className="col-lg-4 col-md-6 col-12">
               <div className="projects-thumb">
@@ -107,16 +120,21 @@ const Projects = () => {
             <div className="col-lg-4 col-md-6 col-12">
               <div className="projects-thumb">
                 <div className="projects-info">
-                  <small className="projects-tag">Website</small>
+                  <small className="projects-tag">Back Office</small>
 
-                  <h3 className="projects-title">F1 SIGA</h3>
+                  <h3 className="projects-title">
+                    NearSoft Solutions Backoffice
+                  </h3>
                 </div>
 
-                <a href="https://f1-siga.onrender.com/" target={"_blank"} className="popup-image">
+                <a
+                    href="/images/projects/Nearsoft-Backoffice.png"
+                    className="popup-image"
+                >
                   <img
-                      src="/images/projects/F1-SIGA.png"
+                      src="/images/projects/Nearsoft-Backoffice.png"
                       className="projects-image img-fluid"
-                      alt="F1-SIGA"
+                      alt="Nearsoft-Backoffice"
                   />
                 </a>
               </div>
@@ -140,12 +158,34 @@ const Projects = () => {
               </div>
             </div>
 
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="projects-thumb">
+                <div className="projects-info">
+                  <small className="projects-tag">Mobile App</small>
+
+                  <h3 className="projects-title">Expense Tracker</h3>
+                </div>
+
+                <a
+                    href="https://expo.dev/preview/update?message=Upgraded+the+version+of+Expo&updateRuntimeVersion=1.0.0&createdAt=2025-09-15T21%3A54%3A34.643Z&slug=exp&projectId=a7b6c319-0e12-44a1-8f91-4bee4fd52b2d&group=73e414dc-508b-4237-ba0d-924b44930453"
+                    target={"_blank"}
+                    className="popup-image"
+                >
+                  <img
+                      src="/images/projects/ExpenseTracker%20(Large).jpg"
+                      className="projects-image img-fluid"
+                      alt="Celestial Capture"
+                  />
+                </a>
+              </div>
+            </div>
+
             {/*<div className="col-lg-4 col-md-6 col-12">*/}
             {/*  <div className="projects-thumb">*/}
             {/*    <div className="projects-info">*/}
-            {/*      <small className="projects-tag">Student Manager</small>*/}
+            {/*      <small className="projects-tag">Mobile App</small>*/}
 
-            {/*      <h3 className="projects-title">UniCompanion</h3>*/}
+            {/*      <h3 className="projects-title"></h3>*/}
             {/*    </div>*/}
 
             {/*    <a*/}
