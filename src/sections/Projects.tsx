@@ -36,6 +36,27 @@ const Projects = () => {
               </div>
             </div>
 
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="projects-thumb">
+                <div className="projects-info">
+                  <small className="projects-tag">Website</small>
+
+                  <h3 className="projects-title">WealthFolio</h3>
+                </div>
+
+                <a
+                    href="https://wealthfolio-rw5p.onrender.com"
+                    className="popup-image"
+                >
+                  <img
+                      src="/images/projects/WealthFolio.png"
+                      className="projects-image img-fluid"
+                      alt="WealthFolio"
+                  />
+                </a>
+              </div>
+            </div>
+
             {/*<div className="col-lg-4 col-md-6 col-12">*/}
             {/*  <div className="projects-thumb">*/}
             {/*    <div className="projects-info">*/}
