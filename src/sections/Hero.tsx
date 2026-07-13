@@ -19,7 +19,7 @@ const Hero = () => {
                   <h1 className="hero-title ms-3 mb-0">I'm Afonso Sousa</h1>
                 </div>
 
-                <h2 className="mb-4">Front-End Developer</h2>
+                <h2 className="mb-4">Web Developer</h2>
                 <p className="mb-4">
                   <a
                     className="custom-btn btn custom-link btn-hover-scale"
