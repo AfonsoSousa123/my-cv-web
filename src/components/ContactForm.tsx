@@ -1,67 +1,53 @@
-import { useState } from "react";
+import { useState, FormEvent } from "react";
 import emailjs from "@emailjs/browser"
 
-type FormData = {
-    name: string;
-    email: string;
-    subject: string;
-    message: string;
-};
+type FormStatus = 'idle' | 'sending' | 'success' | 'error';
 
-const initialForm: FormData = {
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-};
+interface FormData {
+    name: string;
+    subject: string;
+    email: string;
+    message: string;
+}
 
 const ContactForm = () => {
-    const [form, setForm] = useState<FormData>(initialForm);
-    const [sending, setSending] = useState(false);
-    const [status, setStatus] = useState<null | { ok: boolean; text: string }>(null);
+    const [formData, setFormData] = useState<FormData>({
+        name: '',
+        subject: '',
+        email: '',
+        message: '',
+    });
+    const [status, setStatus] = useState<FormStatus>('idle');
 
-    const onChange = (
+    const handleChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
     ) => {
-        setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+        const { name, value } = e.target;
+        setFormData((prev) => ({ ...prev, [name]: value }));
     };
 
-    const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        setStatus(null);
-
-        // Basic client validation
-        if (!form.name || !form.email || !form.message) {
-            setStatus({ ok: false, text: "Please fill in name, email, and message." });
-            return;
-        }
-
-        setSending(true);
+        setStatus('sending');
 
         try {
-            const serviceId = import.meta.env.EMAILJS_SERVICE_ID as string;
-            const templateId = import.meta.env.EMAILJS_TEMPLATE_ID as string;
-            const publicKey = import.meta.env.EMAILJS_PUBLIC_KEY as string;
-
             await emailjs.send(
-                serviceId,
-                templateId,
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
                 {
-                    from_name: form.name,
-                    from_email: form.email,
-                    subject: form.subject,
-                    message: form.message,
+                    from_name: formData.name,
+                    from_subject: formData.subject,
+                    from_email: formData.email,
+                    from_message: formData.message,
                 },
-                { publicKey }
+                import.meta.env.VITE_EMAILJS_PUBLIC_KEY
             );
 
-            setStatus({ ok: true, text: "Message sent successfully!" });
-            setForm(initialForm);
+            setStatus('success');
+            setFormData({ name: '', subject: '', email: '', message: '' });
         } catch (error) {
-            setStatus({ ok: false, text: "Failed to send message. Please try again." });
-            console.error("EmailJS error:", error);
-        } finally {
-            setSending(false);
+            console.error('Erro ao enviar email:', error);
+            setStatus('error');
         }
     };
 
@@ -70,7 +56,7 @@ const ContactForm = () => {
             <form
                 className="custom-form contact-form"
                 role="form"
-                onSubmit={onSubmit}
+                onSubmit={handleSubmit}
             >
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-12">
@@ -81,6 +67,8 @@ const ContactForm = () => {
                                 id="name"
                                 className="form-control"
                                 placeholder="Name"
+                                value={formData.name}
+                                onChange={handleChange}
                                 required
                             />
 
@@ -97,6 +85,8 @@ const ContactForm = () => {
                                 pattern="[^ @]*@[^ @]*"
                                 className="form-control"
                                 placeholder="Email address"
+                                value={formData.email}
+                                onChange={handleChange}
                                 required
                             />
 
@@ -112,79 +102,13 @@ const ContactForm = () => {
                                 id="subject"
                                 className="form-control"
                                 placeholder="Subject"
+                                value={formData.subject}
+                                onChange={handleChange}
                                 required
                             />
 
                             <label>Subject</label>
                         </div>
-
-                        {/*<div className="col-lg-3 col-md-6 col-6">*/}
-                        {/*    <div className="form-check form-check-inline">*/}
-                        {/*        <input*/}
-                        {/*            name="website"*/}
-                        {/*            type="checkbox"*/}
-                        {/*            className="form-check-input"*/}
-                        {/*            id="inlineCheckbox1"*/}
-                        {/*            value="1"*/}
-                        {/*        />*/}
-
-                        {/*        <label className="form-check-label">*/}
-                        {/*            <i className="bi-globe form-check-icon"></i>*/}
-                        {/*            <span className="form-check-label-text">Websites</span>*/}
-                        {/*        </label>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
-
-                        {/*<div className="col-lg-3 col-md-6 col-6">*/}
-                        {/*    <div className="form-check form-check-inline">*/}
-                        {/*        <input*/}
-                        {/*            name="branding"*/}
-                        {/*            type="checkbox"*/}
-                        {/*            className="form-check-input"*/}
-                        {/*            id="inlineCheckbox2"*/}
-                        {/*            value="1"*/}
-                        {/*        />*/}
-
-                        {/*        <label className="form-check-label">*/}
-                        {/*            <i className="bi-lightbulb form-check-icon"></i>*/}
-                        {/*            <span className="form-check-label-text">APIs</span>*/}
-                        {/*        </label>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
-
-                        {/*<div className="col-lg-3 col-md-6 col-6">*/}
-                        {/*    <div className="form-check form-check-inline">*/}
-                        {/*        <input*/}
-                        {/*            name="ecommerce"*/}
-                        {/*            type="checkbox"*/}
-                        {/*            className="form-check-input"*/}
-                        {/*            id="inlineCheckbox3"*/}
-                        {/*            value="1"*/}
-                        {/*        />*/}
-
-                        {/*        <label className="form-check-label">*/}
-                        {/*            <i className="bi-phone form-check-icon"></i>*/}
-                        {/*            <span className="form-check-label-text">Ecommerce</span>*/}
-                        {/*        </label>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
-
-                        {/*<div className="col-lg-3 col-md-6 col-6">*/}
-                        {/*    <div className="form-check form-check-inline me-0">*/}
-                        {/*        <input*/}
-                        {/*            name="seo"*/}
-                        {/*            type="checkbox"*/}
-                        {/*            className="form-check-input"*/}
-                        {/*            id="inlineCheckbox4"*/}
-                        {/*            value="1"*/}
-                        {/*        />*/}
-
-                        {/*        <label className="form-check-label">*/}
-                        {/*            <i className="bi-search form-check-icon"></i>*/}
-                        {/*            <span className="form-check-label-text">Web Apps</span>*/}
-                        {/*        </label>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
                     </div>
 
                     <div className="col-lg-12 col-12">
@@ -194,8 +118,9 @@ const ContactForm = () => {
                                 id="message"
                                 name="message"
                                 placeholder="Tell me about the project"
-                                value={form.message}
-                                onChange={onChange}
+                                value={formData.message}
+                                rows={5}
+                                onChange={handleChange}
                             ></textarea>
 
                             <label>Tell me about the project</label>
@@ -203,13 +128,18 @@ const ContactForm = () => {
                     </div>
 
                     <div className="col-lg-4 col-12 ms-auto">
-                        <button type="submit" className="form-control" disabled={sending} >
-                            {sending ? "Sending..." : "Send Message"}
+                        <button type="submit" className="form-control" disabled={status === 'sending'} >
+                            {status === 'sending' ? 'Sending...' : 'Send Message'}
                         </button>
                     </div>
 
-                    {status && (
-                        <p style={{ color: status.ok ? "green" : "crimson" }}>{status.text}</p>
+                    {status === 'success' && (
+                        <p className="form-message form-success">Message successfuly sent!</p>
+                    )}
+                    {status === 'error' && (
+                        <p className="form-message form-error">
+                            An error occurred. Please try again or contact us directly by phone.
+                        </p>
                     )}
                 </div>
             </form>
