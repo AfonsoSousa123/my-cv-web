@@ -22,35 +22,35 @@ const Contact = () => {
 
               <div className="col-lg-3 col-md-6 col-12 pe-lg-0">
                 <div className="contact-info contact-info-border-start d-flex flex-column">
-                  <strong className="site-footer-title d-block mb-3">
-                    Services
-                  </strong>
+                  {/*<strong className="site-footer-title d-block mb-3">*/}
+                  {/*  Services*/}
+                  {/*</strong>*/}
 
-                  <ul className="footer-menu">
-                    <li className="footer-menu-item">
-                      <a href="#section_services" className="footer-menu-link">
-                        Websites
-                      </a>
-                    </li>
+                  {/*<ul className="footer-menu">*/}
+                  {/*  <li className="footer-menu-item">*/}
+                  {/*    <a href="#section_services" className="footer-menu-link">*/}
+                  {/*      Websites*/}
+                  {/*    </a>*/}
+                  {/*  </li>*/}
 
-                    <li className="footer-menu-item">
-                      <a href="#section_services" className="footer-menu-link">
-                        APIs
-                      </a>
-                    </li>
+                  {/*  <li className="footer-menu-item">*/}
+                  {/*    <a href="#section_services" className="footer-menu-link">*/}
+                  {/*      APIs*/}
+                  {/*    </a>*/}
+                  {/*  </li>*/}
 
-                    <li className="footer-menu-item">
-                      <a href="#section_services" className="footer-menu-link">
-                        Ecommerce
-                      </a>
-                    </li>
+                  {/*  <li className="footer-menu-item">*/}
+                  {/*    <a href="#section_services" className="footer-menu-link">*/}
+                  {/*      Ecommerce*/}
+                  {/*    </a>*/}
+                  {/*  </li>*/}
 
-                    <li className="footer-menu-item">
-                      <a href="#section_services" className="footer-menu-link">
-                        SEO
-                      </a>
-                    </li>
-                  </ul>
+                  {/*  <li className="footer-menu-item">*/}
+                  {/*    <a href="#section_services" className="footer-menu-link">*/}
+                  {/*      SEO*/}
+                  {/*    </a>*/}
+                  {/*  </li>*/}
+                  {/*</ul>*/}
 
                   <strong className="site-footer-title d-block mt-4 mb-3">
                     Stay connected

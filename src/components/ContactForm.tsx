@@ -1,5 +1,6 @@
 import { useState, FormEvent } from "react";
 import emailjs from "@emailjs/browser"
+import ShowAlert from "./Notifications/showAlert.tsx";
 
 type FormStatus = 'idle' | 'sending' | 'success' | 'error';
 
@@ -134,12 +135,18 @@ const ContactForm = () => {
                     </div>
 
                     {status === 'success' && (
-                        <p className="form-message form-success">Message successfuly sent!</p>
+                        <ShowAlert
+                            icon="success"
+                            title="Success!"
+                            message="Message sent successfully.!"
+                        />
                     )}
                     {status === 'error' && (
-                        <p className="form-message form-error">
-                            An error occurred. Please try again or contact us directly by phone.
-                        </p>
+                        <ShowAlert
+                            icon="error"
+                            title="Error!"
+                            message="There was an error sending your message. Please try again later."
+                        />
                     )}
                 </div>
             </form>
