@@ -1,6 +1,7 @@
 import { useState, FormEvent } from "react";
 import emailjs from "@emailjs/browser"
 import ShowAlert from "./Notifications/showAlert.tsx";
+import DotsSpinner from "./Spinners/DotsSpinner.tsx";
 
 type FormStatus = 'idle' | 'sending' | 'success' | 'error';
 
@@ -130,7 +131,7 @@ const ContactForm = () => {
 
                     <div className="col-lg-4 col-12 ms-auto">
                         <button type="submit" className="form-control" disabled={status === 'sending'} >
-                            {status === 'sending' ? 'Sending...' : 'Send Message'}
+                            {status === 'sending' ? <DotsSpinner /> : 'Send Message'}
                         </button>
                     </div>
 
