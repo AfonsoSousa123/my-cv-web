@@ -62,7 +62,7 @@ const About = () => {
 
                 <p>
                   My five internships with diverse organizations have provided comprehensive
-                  preparation for a front-end or mobile developer role within a leading company,
+                  preparation for a full stack, frontend, or mobile developer role within a leading company,
                   enabling me to contribute to the creation of exceptional websites.
                 </p>
 
