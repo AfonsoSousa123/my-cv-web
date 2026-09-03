@@ -41,7 +41,7 @@ const About = () => {
                   >
                     <strong>Higher Polytechnic Technician Course (HPTC),</strong>
                   </a>
-                  I am a front-end developer pursuing a{" "}
+                  I am a full stack developer pursuing a{" "}
                   <a
                       className={"pe-1"}
                       href="https://www.uma.pt/en/ensino/1o-ciclo/licenciatura-em-engenharia-informatica/"

@@ -112,7 +112,7 @@ const Contact = () => {
                   </strong>
 
                   <p className="mb-2">
-                    Afonso is a junior web developer. Feel free to get in touch
+                    Afonso is a junior full stack developer. Feel free to get in touch
                     with him.
                   </p>
 
